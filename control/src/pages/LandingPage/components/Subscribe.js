@@ -23,7 +23,7 @@ const Subscribe = () => {
           setDisplayModal(true)
           setTimeout(() => {
             setDisplayModal(false)
-          }, 7000)
+          }, 2000)
         }
       })
       .catch(error => {
